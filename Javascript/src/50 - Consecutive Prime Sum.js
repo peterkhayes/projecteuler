@@ -25,7 +25,7 @@ var cps = function (n) {
             length++;
             if (primes[sum] && (length > maxLength)) {
                 maxLength = length;
-                maxSum = sum;    
+                maxSum = sum;
             }
         }
     }
